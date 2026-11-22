@@ -6,7 +6,7 @@ This code shows how a differentiable solver (FEM) can solve inverse problems bet
 
 It accompanies the paper
 
-> Y. Choi, H. Moon, and S. Ryu. Critical evaluation of PINN for FWD inverse analysis and differentiable FEM as an alternative. [arXiv:2606.03210](https://arxiv.org/abs/2606.03210)
+> Y. Choi, H. Moon, and S. Ryu. Differentiable FEM versus PINN for pavement layer inverse analysis: enforcing physics as hard or soft constraints. *Computer-Aided Civil and Infrastructure Engineering*, 52, 100251 (2026). [doi:10.1016/j.cacaie.2026.100251](https://doi.org/10.1016/j.cacaie.2026.100251) (preprint: [arXiv:2606.03210](https://arxiv.org/abs/2606.03210))
 
 ## Problem setup
 
@@ -60,16 +60,18 @@ Iteration counts can differ slightly across hardware and PyTorch versions.
 If you use this code, please cite
 
 ```bibtex
-@misc{choi2026criticalevaluationpinnfwd,
-      title={Critical evaluation of PINN for FWD inverse analysis and differentiable FEM as an alternative},
+@article{choi2026differentiable,
+      title={Differentiable FEM versus PINN for pavement layer inverse analysis: enforcing physics as hard or soft constraints},
       author={Yongjin Choi and Hyeonbin Moon and Seunghwa Ryu},
+      journal={Computer-Aided Civil and Infrastructure Engineering},
+      volume={52},
+      pages={100251},
       year={2026},
-      eprint={2606.03210},
-      archivePrefix={arXiv},
-      primaryClass={cs.CE},
-      url={https://arxiv.org/abs/2606.03210},
+      doi={10.1016/j.cacaie.2026.100251},
 }
 ```
+
+The code is archived on Zenodo: [10.5281/zenodo.24450464](https://doi.org/10.5281/zenodo.24450464).
 
 ## License
 

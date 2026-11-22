@@ -1,28 +1,36 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the paper below."
-title: "Code for: Critical evaluation of PINN for FWD inverse analysis and differentiable FEM as an alternative"
+title: "Code for: Differentiable FEM versus PINN for pavement layer inverse analysis: enforcing physics as hard or soft constraints"
 type: software
 authors:
   - family-names: Choi
     given-names: Yongjin
+    orcid: "https://orcid.org/0000-0002-3253-7924"
   - family-names: Moon
     given-names: Hyeonbin
   - family-names: Ryu
     given-names: Seunghwa
+    orcid: "https://orcid.org/0000-0001-9516-5809"
 repository-code: "https://github.com/geointl/diff-pave-paper"
 license: MIT
 version: v1.0.0
 date-released: "2026-11-23"
+doi: 10.5281/zenodo.24450464
 preferred-citation:
   type: article
-  title: "Critical evaluation of PINN for FWD inverse analysis and differentiable FEM as an alternative"
+  title: "Differentiable FEM versus PINN for pavement layer inverse analysis: enforcing physics as hard or soft constraints"
   authors:
     - family-names: Choi
       given-names: Yongjin
+      orcid: "https://orcid.org/0000-0002-3253-7924"
     - family-names: Moon
       given-names: Hyeonbin
     - family-names: Ryu
       given-names: Seunghwa
+      orcid: "https://orcid.org/0000-0001-9516-5809"
+  journal: "Computer-Aided Civil and Infrastructure Engineering"
+  volume: 52
   year: 2026
-  journal: "arXiv preprint arXiv:2606.03210"
-  url: "https://arxiv.org/abs/2606.03210"
+  month: 12
+  doi: 10.1016/j.cacaie.2026.100251
+  url: "https://doi.org/10.1016/j.cacaie.2026.100251"
