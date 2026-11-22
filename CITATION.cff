@@ -9,7 +9,7 @@ authors:
     given-names: Hyeonbin
   - family-names: Ryu
     given-names: Seunghwa
-repository-code: "https://github.com/yjchoi1/diff-pave-paper"
+repository-code: "https://github.com/geointl/diff-pave-paper"
 license: MIT
 version: v1.0.0
 date-released: "2026-11-23"
