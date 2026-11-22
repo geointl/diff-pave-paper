@@ -1,5 +1,7 @@
 # Differentiable FEM vs. PINNs for inverse problems
 
+[![DOI](https://zenodo.org/badge/1409524835.svg)](https://zenodo.org/badge/latestdoi/1409524835)
+
 This code shows how a differentiable solver (FEM) can solve inverse problems better than PINN-based approaches in backcalculating the elastic moduli of multi-layered systems.
 
 It accompanies the paper
